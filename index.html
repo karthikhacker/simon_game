@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <title>simon</title>
+  </head>
+  <body>
+   <section  id="main">
+     <div class="row" id="heading">
+       <div class="col s12 m8 l12">
+         <h4>SIMON GAME</h4>
+       </div>
+     </div><!--End of row -->
+     <div class="row" id="control-btn">
+       <div class="col s12 m8 l4 offset-l4">
+         <button id="start" type="button" class="btn start">START</button>
+         <button id="strict" type="button" class="btn strict">STRICT</button>
+       </div>
+      </div><!--ENd of row -->
+      <div class="row" id="counter">
+        <div class="col s12 m8 l4 offset-l4">
+          <span id="count">COUNT <i class="fa fa-clock-o"></i></span>
+        </div>
+      </div><!--End of row -->
+      <div class="row">
+        <div class="col s12 m8 l4 offset-l4">
+          <button id="on" type="button" class="btn on">ON</button>
+          <button id="off" type="button" class="btn off">OFF</button>
+        </div>
+      </div><!--End of row -->
+      <div class="row">
+        <div class="col s12 m8 l4 offset-l4">
+          <button id="btn1" type="button" class="btn1"></button>
+          <button id="btn2" type="button" class="btn2"></button>
+        </div>
+        <div class="col s12 m8 l4 offset-l4">
+          <button id="btn3" type="button" class="btn3"></button>
+          <button id="btn4" type="button" class="btn4"></button>
+        </div>
+      </div><!--End of row -->
+   </section>
+   <section id="footer">
+     <div class="row">
+       <div class="col s12 m6 l6 offset-l3">
+         <p class="center-align">
+           Coded by <a href="https://github.com/karthikhacker"> Karthik sundararajan <i class="fa fa-github"></i></a>
+         </p>
+      </div>
+     </div>
+   </section>
+   <audio id="audio1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+    </audio>
+ </body>
+</html>
